@@ -1,0 +1,17 @@
+# ninja log v6
+4	548	7948935587381165	CMakeFiles/fea.dir/main.cpp.obj	c0b672863a70b9af
+60	711	7948935587928925	CMakeFiles/fea.dir/glad/gl.c.obj	c1c656626ed189ee
+54	833	7948935587883947	CMakeFiles/fea.dir/source/renderer.cpp.obj	d07eb1fbef9af484
+18	422	7948936169450770	CMakeFiles/fea.dir/source/mesh.cpp.obj	7f0c90c285f44bbb
+423	578	7948936173503348	fea.exe	ce3656a174c2a75f
+19	537	7948940788084439	CMakeFiles/fea.dir/main.cpp.obj	c0b672863a70b9af
+41	606	7948940788305897	CMakeFiles/fea.dir/source/renderer.cpp.obj	d07eb1fbef9af484
+607	775	7948940793959758	fea.exe	ce3656a174c2a75f
+16	402	7948942212355498	CMakeFiles/fea.dir/main.cpp.obj	c0b672863a70b9af
+40	626	7948942212597215	CMakeFiles/fea.dir/source/renderer.cpp.obj	d07eb1fbef9af484
+18	464	7948942907189907	CMakeFiles/fea.dir/source/mesh.cpp.obj	7f0c90c285f44bbb
+465	611	7948942911655953	fea.exe	ce3656a174c2a75f
+6	612	7948943930633588	CMakeFiles/fea.dir/source/renderer.cpp.obj	d07eb1fbef9af484
+613	769	7948943936712378	fea.exe	ce3656a174c2a75f
+5	619	7948945010821235	CMakeFiles/fea.dir/source/renderer.cpp.obj	d07eb1fbef9af484
+620	787	7948945016964422	fea.exe	ce3656a174c2a75f
