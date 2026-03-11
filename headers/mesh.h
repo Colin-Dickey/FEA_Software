@@ -4,13 +4,14 @@
 #include <vector>
 #include <string>
 #include <array>
+#include <map>
 
-struct Vertex {
+struct Node {
     float x, y, z;
 };
 
-struct Triangle {
-    std::array<Vertex, 3> vertices;
+struct Tet {
+    int n[4]; // 4 node indices
 };
 
 struct Vec3 {
@@ -19,13 +20,14 @@ struct Vec3 {
 
 class Mesh {
 public:
-    std::vector<Triangle> triangles;
-    std::vector<float> vertexBuffer;
+    std::vector<Node> nodes;
+    std::vector<Tet> tets;
+    std::vector<float> vertexBuffer;  // outer faces for rendering
     Vec3 center = {0, 0, 0};
     float scale = 1.0f;
 
-    bool loadSTL(const std::string& filepath);
-    void buildVertexBuffer();
+    bool loadMSH(const std::string& filepath);
+    void extractSurface();
     void computeBounds();
 };
 
